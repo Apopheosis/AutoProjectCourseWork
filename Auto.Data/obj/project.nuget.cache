@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "VyPfsLYW4p14ODS2z4SQDyKZOGGp+/keCYlv6hYz+e90iyQppFz2OA7At9/E1XgqdIBEkfg7rKVX0P0SedvDhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.dependencyinjection.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.logging\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.logging.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.logging.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.options\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.options.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.2-mauipre.1.22102.15\\microsoft.extensions.primitives.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\rabbitmq\\3.6.2\\rabbitmq.3.6.2.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.2-mauipre.1.22102.15\\system.diagnostics.diagnosticsource.6.0.2-mauipre.1.22102.15.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.2-mauipre.1.22102.15\\system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+  ],
+  "logs": []
+}

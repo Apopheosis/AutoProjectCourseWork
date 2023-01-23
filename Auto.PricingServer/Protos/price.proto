@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "Auto.PricingServerEngine";
+
+package owner;
+
+service VehicleService {
+  rpc GetVehicle (VehicleCodeRequest) returns (VehicleCodeReply);
+}
+
+message VehicleCodeRequest {
+  string vehicleRegistration = 1;
+}
+
+message VehicleCodeReply {
+  string ModelCode = 1;
+  sint32 year = 2;
+  string registration = 3;
+}

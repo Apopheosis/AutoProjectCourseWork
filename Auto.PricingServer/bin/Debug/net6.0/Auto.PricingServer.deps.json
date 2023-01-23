@@ -1,0 +1,514 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Auto.PricingServer/1.0.0": {
+        "dependencies": {
+          "Auto.Core": "1.0.0",
+          "Auto.Data": "1.0.0",
+          "Auto.PricingClient": "1.0.0",
+          "Grpc.AspNetCore": "2.40.0",
+          "Grpc.Core": "2.46.6",
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.PricingServer.dll": {}
+        }
+      },
+      "EasyNetQ/6.3.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.dll": {
+            "assemblyVersion": "6.3.1.0",
+            "fileVersion": "6.3.1.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.21.9": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.9.0",
+            "fileVersion": "3.21.9.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore/2.40.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "Grpc.AspNetCore.Server.ClientFactory": "2.40.0",
+          "Grpc.Tools": "2.40.0"
+        }
+      },
+      "Grpc.AspNetCore.Server/2.40.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.50.0-pre1"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.40.0.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server.ClientFactory/2.40.0": {
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.40.0",
+          "Grpc.Net.ClientFactory": "2.40.0"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.40.0.0"
+          }
+        }
+      },
+      "Grpc.Core/2.46.6": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.50.0-pre1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.46.6.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.50.0-pre1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.50.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.50.0-pre1": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.50.0-pre1",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.50.0.0"
+          }
+        }
+      },
+      "Grpc.Net.ClientFactory/2.40.0": {
+        "dependencies": {
+          "Grpc.Net.Client": "2.50.0-pre1",
+          "Microsoft.Extensions.Http": "3.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.40.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.50.0-pre1": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.50.0-pre1"
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.50.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.40.0": {},
+      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/3.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15"
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
+          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "RabbitMQ/3.6.2": {},
+      "RabbitMQ.Client/6.2.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.1.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "System.Threading.Channels/4.7.1": {},
+      "Auto.Core/1.0.0": {
+        "dependencies": {
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.Core.dll": {}
+        }
+      },
+      "Auto.Data/1.0.0": {
+        "dependencies": {
+          "Auto.Core": "1.0.0",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.Data.dll": {}
+        }
+      },
+      "Auto.Messages/1.0.0": {
+        "dependencies": {
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.Messages.dll": {}
+        }
+      },
+      "Auto.PricingClient/1.0.0": {
+        "dependencies": {
+          "Auto.Messages": "1.0.0",
+          "EasyNetQ": "6.3.1",
+          "Google.Protobuf": "3.21.9",
+          "Grpc.Net.Client": "2.50.0-pre1"
+        },
+        "runtime": {
+          "Auto.PricingClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auto.PricingServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EasyNetQ/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WBZxeGj5ivoCA12rnAy4hG12i8FS9mYi9o91+48fJ9Ei2+EOPsZ/6Y+C4z8Q0Rh9dgxC8rsZ2fW1qVd9yGlEUA==",
+      "path": "easynetq/6.3.1",
+      "hashPath": "easynetq.6.3.1.nupkg.sha512"
+    },
+    "Google.Protobuf/3.21.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
+      "path": "google.protobuf/3.21.9",
+      "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
+    },
+    "Grpc.AspNetCore/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UdyFzZZbzugtoGfjGAY9bVq/1l7m3SvGGXd5VCqw7xr4QA4BVEozr1Vr6FFxUOPVvg91g5dwssbsM/Xl1MpecQ==",
+      "path": "grpc.aspnetcore/2.40.0",
+      "hashPath": "grpc.aspnetcore.2.40.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cBSpT42syKkVnTBEehk+Sc2dX5sDO2lP+5o4ylFnup+JHPntbewTx5QHHizWPRTKTwWDe4EXR4rR1ilgf6eTnQ==",
+      "path": "grpc.aspnetcore.server/2.40.0",
+      "hashPath": "grpc.aspnetcore.server.2.40.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server.ClientFactory/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U+Cp5Mt7/xjFRIJhChjLXn0oUDisaBg3XzFkAUZE32dAa/dQN2gs9Qd9Gl51deStbci3J+W7CcfHgZ0y2Fwblw==",
+      "path": "grpc.aspnetcore.server.clientfactory/2.40.0",
+      "hashPath": "grpc.aspnetcore.server.clientfactory.2.40.0.nupkg.sha512"
+    },
+    "Grpc.Core/2.46.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZoRg3KmOJ2urTF4+u3H0b1Yv10xzz2Y/flFWS2tnRmj8dbKLeiJaSRqu4LOBD3ova90evqLkVZ85kUkC4JT4lw==",
+      "path": "grpc.core/2.46.6",
+      "hashPath": "grpc.core.2.46.6.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.50.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rorQmov10a6h0q0KHJuaiGpvS2v6vNCu4OTnd0fs+9+jt5EckHOq1CWIi6A4/ZwcPJwTZBTcF4ACBEashKpO/Q==",
+      "path": "grpc.core.api/2.50.0-pre1",
+      "hashPath": "grpc.core.api.2.50.0-pre1.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.50.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MV3lOtlcgKIHDQ7n+sJYdXxqlgeq0fSjEF+H+UyMJBTjDHep62aEvgNR85arsWCe9++ksl2NQ0+sOu3mVTEkvQ==",
+      "path": "grpc.net.client/2.50.0-pre1",
+      "hashPath": "grpc.net.client.2.50.0-pre1.nupkg.sha512"
+    },
+    "Grpc.Net.ClientFactory/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B2ZzZpkaSH7AvTeu3jF3PAbumWEtHvB9qHX/ULU4AuN4lZwXiQF+G6jatZerXpVqTb4mzQ2wFhKkThYyVMN4uw==",
+      "path": "grpc.net.clientfactory/2.40.0",
+      "hashPath": "grpc.net.clientfactory.2.40.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.50.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EVpLIRAZv9qEW179wZp0LX/kNKxh2JbdksQyJCBIzMAS4YQ6iRsyXj1m77FeQyhMK5a3V4t0U7dzX9YZ/Y5H9w==",
+      "path": "grpc.net.common/2.50.0-pre1",
+      "hashPath": "grpc.net.common.2.50.0-pre1.nupkg.sha512"
+    },
+    "Grpc.Tools/2.40.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yOAhijs6POv7oISBV9Rdx5YCSdo/+6zCJTB/ULum3GA4RunxVFI0rPnpJM1+YM9yMf+H1/D001ignsepnygPJw==",
+      "path": "grpc.tools/2.40.0",
+      "hashPath": "grpc.tools.2.40.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y4/dQr57HctkUu7B9LWCW6exU5fHaGIRN3P89rZsgjfvqaLTsRwb3o7hVAhpIDiP2K3I0dZP8fs/R+b4tDOX+w==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oYNPt6oGPYqF4lNN4GloZ4de4pkeuON4yQO0JJ+ob6e1Ny9MnCI39uKpULD8cTYrIhZt9/hnYx5eAz/2GM/qag==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dcyB8szIcSynjVZRuFgqkZpPgTc5zeRSj1HMXSmNqWbHYKiPYJl8ZQgBHz6wmZNSUUNGpCs5uxUg8DZHHDC1Ew==",
+      "path": "microsoft.extensions.http/3.0.3",
+      "hashPath": "microsoft.extensions.http.3.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ZkKqP2h/qiobh+SEhuQwPYLAL99LdVUHwN/jvJN35Wxr2+eY9Ptmzhq2bXiKMXviBM+AqeQXPYyh65+aTcM4w==",
+      "path": "microsoft.extensions.logging/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.logging.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GjCl1p1Np6r5XEy2LZFD/pIbBI7iC6XVhaV1kIOESmT5EqfSV/w8igaK0mwEAXmKsywfPEqEzZahlBRJNYZRjg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BOa4mEpuqcD5qnyI6SvaQabcQzUWPUscISkFR6BT2Q2eCHsop9nHx09DvrFNZJ58o0Ny0/ffcdMVXvQwMGMzDA==",
+      "path": "microsoft.extensions.options/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.options.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UwHK1V4ccpDfP1rbUfNgSOf5Q/nn6B3rv1fKW5rzD7QtCm94IayO2Dnx9VgAhQUdOn+o4+/BgBDPjPYmGfnzLg==",
+      "path": "microsoft.extensions.primitives/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.primitives.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "RabbitMQ/3.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4g9ODHrc0eMH2qnOD4u/+dIxPDi+TaVMk7r6YTQ/F6ZZ/T84II64u8E3nJ+wohYlisDMqN5LW+6p4V/vkVdpiA==",
+      "path": "rabbitmq/3.6.2",
+      "hashPath": "rabbitmq.3.6.2.nupkg.sha512"
+    },
+    "RabbitMQ.Client/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
+      "path": "rabbitmq.client/6.2.1",
+      "hashPath": "rabbitmq.client.6.2.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBjxUp4ajJ6aixDKzhKnkAiw90nWtVjAyL9deS7NUYqHXFU/dQsCoML8XWr6xgj8LR5/SrjeV52I3QAVza/Tcg==",
+      "path": "system.diagnostics.diagnosticsource/6.0.2-mauipre.1.22102.15",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-504wZt1lnx5T2rQHNa/FpmLjbMe5ho03TYMnFUU1PGnqVLXl0fR6LoPXvdy8hAjSlorOqVqfeXtalsUfVia1RQ==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.2-mauipre.1.22102.15",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "System.Threading.Channels/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "path": "system.threading.channels/4.7.1",
+      "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "Auto.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Auto.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Auto.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Auto.PricingClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

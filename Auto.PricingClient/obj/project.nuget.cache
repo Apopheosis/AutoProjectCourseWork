@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "CuGj6uVmgOzgAwF1K5mvyJtc1lm1Acmlu+tdMcZLlyatg78Gcf6PsddxOZlg1oQI1nJhXX3ZHphl1W4zmfPVpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.PricingClient\\Auto.PricingClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\easynetq\\6.3.1\\easynetq.6.3.1.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\grpc.core.api\\2.50.0-pre1\\grpc.core.api.2.50.0-pre1.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\grpc.net.client\\2.50.0-pre1\\grpc.net.client.2.50.0-pre1.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\grpc.net.common\\2.50.0-pre1\\grpc.net.common.2.50.0-pre1.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\grpc.tools\\2.50.0\\grpc.tools.2.50.0.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\rabbitmq\\3.6.2\\rabbitmq.3.6.2.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

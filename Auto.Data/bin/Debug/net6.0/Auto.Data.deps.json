@@ -1,0 +1,190 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Auto.Data/1.0.0": {
+        "dependencies": {
+          "Auto.Core": "1.0.0",
+          "Microsoft.Extensions.Logging": "6.0.2-mauipre.1.22102.15",
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.Data.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22102.15",
+          "System.Diagnostics.DiagnosticSource": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22102.15",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "RabbitMQ/3.6.2": {},
+      "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22102.15"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.10215"
+          }
+        }
+      },
+      "Auto.Core/1.0.0": {
+        "dependencies": {
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "Auto.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auto.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y4/dQr57HctkUu7B9LWCW6exU5fHaGIRN3P89rZsgjfvqaLTsRwb3o7hVAhpIDiP2K3I0dZP8fs/R+b4tDOX+w==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oYNPt6oGPYqF4lNN4GloZ4de4pkeuON4yQO0JJ+ob6e1Ny9MnCI39uKpULD8cTYrIhZt9/hnYx5eAz/2GM/qag==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ZkKqP2h/qiobh+SEhuQwPYLAL99LdVUHwN/jvJN35Wxr2+eY9Ptmzhq2bXiKMXviBM+AqeQXPYyh65+aTcM4w==",
+      "path": "microsoft.extensions.logging/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.logging.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GjCl1p1Np6r5XEy2LZFD/pIbBI7iC6XVhaV1kIOESmT5EqfSV/w8igaK0mwEAXmKsywfPEqEzZahlBRJNYZRjg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BOa4mEpuqcD5qnyI6SvaQabcQzUWPUscISkFR6BT2Q2eCHsop9nHx09DvrFNZJ58o0Ny0/ffcdMVXvQwMGMzDA==",
+      "path": "microsoft.extensions.options/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.options.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UwHK1V4ccpDfP1rbUfNgSOf5Q/nn6B3rv1fKW5rzD7QtCm94IayO2Dnx9VgAhQUdOn+o4+/BgBDPjPYmGfnzLg==",
+      "path": "microsoft.extensions.primitives/6.0.2-mauipre.1.22102.15",
+      "hashPath": "microsoft.extensions.primitives.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "RabbitMQ/3.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4g9ODHrc0eMH2qnOD4u/+dIxPDi+TaVMk7r6YTQ/F6ZZ/T84II64u8E3nJ+wohYlisDMqN5LW+6p4V/vkVdpiA==",
+      "path": "rabbitmq/3.6.2",
+      "hashPath": "rabbitmq.3.6.2.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBjxUp4ajJ6aixDKzhKnkAiw90nWtVjAyL9deS7NUYqHXFU/dQsCoML8XWr6xgj8LR5/SrjeV52I3QAVza/Tcg==",
+      "path": "system.diagnostics.diagnosticsource/6.0.2-mauipre.1.22102.15",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.2-mauipre.1.22102.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-504wZt1lnx5T2rQHNa/FpmLjbMe5ho03TYMnFUU1PGnqVLXl0fR6LoPXvdy8hAjSlorOqVqfeXtalsUfVia1RQ==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.2-mauipre.1.22102.15",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22102.15.nupkg.sha512"
+    },
+    "Auto.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

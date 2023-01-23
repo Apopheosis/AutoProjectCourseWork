@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.WebSite\\Auto.WebSite.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\Auto.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\Auto.Core.csproj",
+        "projectName": "Auto.Core",
+        "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\Auto.Core.csproj",
+        "packagesPath": "C:\\Users\\PArkhipov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PArkhipov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RabbitMQ": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj",
+        "projectName": "Auto.Data",
+        "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj",
+        "packagesPath": "C:\\Users\\PArkhipov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PArkhipov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\Auto.Core.csproj": {
+                "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Core\\Auto.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22102.15, )"
+            },
+            "RabbitMQ": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj",
+        "projectName": "Auto.Messages",
+        "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj",
+        "packagesPath": "C:\\Users\\PArkhipov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PArkhipov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RabbitMQ": {
+              "target": "Package",
+              "version": "[3.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.WebSite\\Auto.WebSite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.WebSite\\Auto.WebSite.csproj",
+        "projectName": "Auto.WebSite",
+        "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.WebSite\\Auto.WebSite.csproj",
+        "packagesPath": "C:\\Users\\PArkhipov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.WebSite\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PArkhipov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6",
+            "projectReferences": {
+              "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj": {
+                "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Data\\Auto.Data.csproj"
+              },
+              "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj": {
+                "projectPath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "GraphQL": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphQL.MicrosoftDI": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphQL.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphQL.Server.Transports.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphQL.Server.Ui.GraphiQL": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphiQL": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.2-mauipre.1.22102.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

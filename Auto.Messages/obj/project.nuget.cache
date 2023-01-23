@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yD9ZrctFT/b/i/gHKEQCLHlt3lgkPVMF4WeBFLsO2phNStM+xzg2WPiW+4Gn6SfW57MSOhHGR1LUYZcXLXr+qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PArkhipov\\Documents\\Auto\\Auto\\Auto.Messages\\Auto.Messages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PArkhipov\\.nuget\\packages\\rabbitmq\\3.6.2\\rabbitmq.3.6.2.nupkg.sha512"
+  ],
+  "logs": []
+}
